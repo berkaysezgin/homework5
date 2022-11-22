@@ -1,0 +1,28 @@
+---SPA---
+Tek sayfa uygulaması ya da tek sayfalık uygulama 
+(İngilizce: single-page application, SPA) kullanıcıyla etkileşimde bulunurken sayfayı 
+tamamen yenilemek yerine bulunulan sayfayı dinamik olarak güncelleyerek çalışan web siteleri ya da web tabanlı uygulamalardır.
+---Angular---
+Angular, Google ve dünyadaki geliştiriciler tarafından sağlanan açık kaynaklı Javascript tabanlı bir MVC kitaplığıdır. 
+Özetle; dinamik web uygulamaları için yapısal bir çerçevedir. Bu, HTML’yi bir şablon dili olarak kullanmanıza ve 
+HTML etiketlerini uygulamanızın bileşenlerini açıkça temsil edecek şekilde genişletmenize olanak tanır. 
+---TypeScript---
+“TypeScript, uygulama ölçeğinde geliştirme için JavaScript.” olarak tanımlanmaktadır. 
+TypeScript strongly-typed, nesne yönelimli ve derlenebilir açık kaynaklı bir programlama dilidir.
+TypeScript’i hem bir dil hem de bir araçlar kümesi olarak tanımlayabiliriz.
+İstemci veya sunucu ortamında çalışabilen JavaScript programları yazmak için kullanılabilir. 
+JavaScript’in tüm özelliklerini içinde barındıran ve ek özellikler eklenmiş bir üst kümesi olarak tanımlanabilir. 
+Büyük ve kodlanma aşaması karmaşık olan projelerde verimliliği arttırır.
+-----------------------
+Değer Tipler: “int”, “long”, “float”, “double”, “decimal”, “char”, “bool”, “byte”, “short”, “struct”, “enum”
+Referans Tipler: “string”, “object”, “class”, “interface”, “array”, “delegate”, “pointer”
+---TypeScript içindeki Değer ve Referans Tipleri---
+Değer Tipleri:"number","string","boolean", "null","undefined".
+Referans Tipleri:"object","array","function,"collection","date","other types of objects"
+----STACK VE HEAP----
+Stack ve Heap kavramlarından kısaca bahsetmek gerekirse, ram’in mantıksal bölümleridir diyebiliriz. 
+Stack’de değer tipleri, pointer ve adresler saklanırken, Heap’de ise referans değerleri saklanmaktadır.
+Stack’e erişim Heap’den daha hızlıdır ve Stack, LIFO (Last-In-First-Out) mantığında çalışmaktadır. 
+Yani son gelen ilk olarak çıkar. Bu sebep ile aradan herhangi bir eleman çıkartamazsınız, birbirleri ile ilişki içerisindedirler.
+Struct tipindeki değişkenler değer tipleridir ve Stack içerisinde saklanmaktadır. 
+Class tipindeki değişkenler ise referans tipleridir ve referansları Stack’de kendisi ise Heap’de saklanır.
